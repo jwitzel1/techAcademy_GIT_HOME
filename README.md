@@ -1,7 +1,7 @@
 # techAcademy_GIT_HOME
 
-All course code by website or project
-the files are organized by website and/or project.
+All course code by website or project is kept here.
+The files are organized by website and/or project.
 
 SITES/PROJECTS:
 
@@ -16,6 +16,7 @@ portfolioWebsite - an Html/CSS one pager with some background of myself and the 
 This website (jasonwitzel.com) also links to the other websites that have their code hosted here / described above.
 
 Projects/sites utilize CSS, HTML, images, video, bootstrap, and more.
+This readme is for the entire repository.  
 
 contact me at jason.s.witzel@gmail.com if you have questions or queries. 
 
