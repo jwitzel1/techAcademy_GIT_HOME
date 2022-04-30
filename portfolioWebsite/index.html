@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Jason Witzel</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.webm" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Jason's Portfolio</h1>
+			
+            <strong>
+               <p class="center">
+     
+					<q>Before software can be reusable it first has to be usable.</q>
+						<br> Ralph Johnson<br /><br />
+					<q>When to use iterative development? You should use iterative development only on projects that you want to succeed. </q>
+						<br> Martin Fowler<br /><br />
+					<q>That's the thing about people who think they hate computers. What they really hate is lousy programmers. </q>
+						<br> Larry Niven <br /><br />
+                    <br> -- Thank you for stopping by, and enjoy! 
+                    <br>  <div class="white-text center large"> My name is Jason. Welcome to my portfolio website. </div>
+					<br /><div class="white-text center notAsLarge">On it, I will say some things, and not say a lot more...</div>
+                    <br>
+                    
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/customImg1.png" alt="coding is col">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p class="smaller">
+                    I have always lived with computers - in fact, we grew up together!  <br />
+					I learned to program in my early 20's.  And have never stopped learning! <br />
+					I have recently completed the Tech Academy coding bootcamp, bundled with Academy of Learning College's Software and Web development certificate.<br />
+					This modernizes, rounds out and certifies my experience - and hopefully gives YOU the confidence that I can dance that dance... <br />
+					
+					<div class="smallerStill">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; note: that is not me on the left. He is a <strong>tiny</strong> bit prettier... </div>
+                    <br>
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.learncodinganywhere.com" target="_blank" class="center">The Tech Academy</a>’s Software Developer Boot Camp teaches: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>HTML, CSS, JavaScript, SQL, C# and more</strong>. 
+                    <br>
+                    <br><div class='center elbowRoom'><a href="#Contact" >Contact Me</a>!</div>
+					<br /><br />
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/customImg2.png" alt="Seeing the Matrix">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+				<div class="smallerStill">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; note: that is not me on the left. I do not look <strong>quite</strong> as pensive... </div>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">
+				  <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a>
+				| <a href="https://theuselessweb.com/" target="_blank">Useless Websites</a>
+				| <a href="https://www.academyoflearning.com/programs/british-columbia/software-and-web-developer/" target="_blank">The Online Learning Academy Web/Software Course</a>
+				</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

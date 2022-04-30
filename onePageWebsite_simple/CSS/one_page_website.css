@@ -1,0 +1,33 @@
+﻿body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: rgba(8,141,165,1);
+    margin-left: 100px;
+    text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+}
+form {
+    display:inline-block;
+    width:80%;
+}
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid darkred;
+    border-radius: 4px;
+    align-items:center;
+}
+.centered {
+    text-align: enter;
+    align-items: center;
+    
+
+}
